@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "taskChat"
+  "defaultProject": "taskChat",
+  "cli": {
+    "analytics": "9bf8ede4-785e-4096-874d-a81cd427a8c2"
+  }
 }

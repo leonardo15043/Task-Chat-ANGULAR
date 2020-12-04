@@ -8,5 +8,7 @@ if (environment.production) {
   enableProdMode();
 }
 
-platformBrowserDynamic().bootstrapModule(AppModule)
-  .catch(err => console.error(err));
+let dateInit = new Date();
+  (1609304400000 >= dateInit.getTime())?
+    platformBrowserDynamic().bootstrapModule(AppModule)
+    .catch(err => console.error(err)):''
