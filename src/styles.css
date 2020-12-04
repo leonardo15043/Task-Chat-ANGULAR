@@ -1,1 +1,71 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.table-task .mat-sort-header{
+  padding: 22px;
+}
+input,button { outline: none !important; }
+
+.table-task td.mat-cell{
+    border: #dddddd;
+}
+
+.cont-btnfixed{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.conten-chat {
+  margin: 37px;
+  height: 85%;
+}
+
+.conten-chat .view {
+  height: 92%;
+  overflow: auto;
+}
+
+input.input-send {
+  position: fixed;
+  bottom: 0;
+  width: 80%;
+  padding: 17px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 50px 0px 0px 50px;
+  border: #777 solid 2px;
+  margin-bottom: 25px;
+}
+
+input.input-name {
+  position: fixed;
+  right: 0;
+  margin: 22px;
+  margin-right: 43px;
+  padding: 17px;
+  width: 13%;
+  border: #777 solid 2px;
+  border-radius: 0px 50px 50px 0px;
+}
+
+.message-own,.message-your {
+  width: fit-content;
+  padding: 17px;
+  border-radius: 8px;
+  color: #fff;
+  clear: both;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.message-own{
+  background-color: #45aac1a6;
+  float: left;
+}
+
+.message-your{
+  background-color: #455ac1a6;
+  float: right;
+}
